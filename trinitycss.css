@@ -63,7 +63,7 @@ header.header-page {
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #{{Color_2_Tint}};
+  background-color: #c28487;
   color: #723130;
 
   /* Alternative if the above doesn't look so great.
@@ -89,7 +89,7 @@ button {
 
 button:hover,
 button:focus {
-    background-color: #{{Color_2_Tint}};
+    background-color: #c28487;
 }
 
 router-view .buttons button.primary,
@@ -106,7 +106,7 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #{{Color_1_Shade}};
+    background-color: #b89897;
 }
 
 .user-info {
@@ -114,7 +114,7 @@ button.submit-login:focus
 }
 
 .user-info a {
-    color: #{{Color_2_Tint}};
+    color: #c28487;
 }
 
 .user-info a:hover,
@@ -133,12 +133,12 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #{{Color_2_Tint}}; /*default #007bff*/
+    color: #c28487; /*default #007bff*/
 }
 
 table th,
 table td {
-    background: #{{Color_2_Tint}};
+    background: #c28487;
 }
 
 .footer {
