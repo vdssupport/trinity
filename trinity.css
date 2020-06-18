@@ -1,17 +1,17 @@
 /*
+@@: (don't include the '#')
+{{Color_1_Shade}}: #{{Color_1_Shade}}; (goto http://www.color-hex.com/color/@@ ; use the second Shade -- just needs to be a little bit darker.)
 86090f: (don't include the '#')
-{{Color_1_Shade}}: #{{Color_1_Shade}}; (goto http://www.color-hex.com/color/86090f ; use the second Shade -- just needs to be a little bit darker.)
-723130: (don't include the '#')
-E4E7E8: #E4E7E8; (goto http://www.color-hex.com/color/723130 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
+E4E7E8: #E4E7E8; (goto http://www.color-hex.com/color/86090f ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
 {{Logo_URL}}: {{Logo_URL}} i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
 */
 
 html {
-  background: #86090f;
+  background: 723130;
 }
 
 .splash {
-  background-color: #86090f;
+  background-color: 723130;
 }
 
 .splash .loading path {
@@ -19,23 +19,23 @@ html {
 }
 
 header.header-main {
-  background-color: #86090f;
+  background-color: 723130;
   height:10.5em;
 }
 
 .logo {
-  background: url('https://vdssupport.github.io/trinity/trinitylogo.jpg') top center no-repeat;
+  background: url('//https://vdssupport.github.io/trinity/trinitylogo.jpg') top center no-repeat;
   display: inline-block;
   max-width: 400px !important;
   background-size: contain;
 }
 
 header.header-page {
-  background-color:#723130;
+  background-color:#86090f;
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#723130;
+  border-bottom-color:#86090f;
   color: #E4E7E8;
 }
 
@@ -47,16 +47,16 @@ header.header-page {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #86090f;
+    border-bottom-color: 723130;
 }
 
 .header-page .buttons button {
-  background-color: #86090f;
+  background-color: 723130;
   color: #fff;
 }
 
 .header-page button {
-  background-color: #723130;
+  background-color: #86090f;
   color: #fff;
 }
 
@@ -64,17 +64,17 @@ header.header-page {
 .header-page .buttons button:focus 
 {
   background-color: #E4E7E8;
-  color: #86090f;
+  color: 723130;
 
   /* Alternative if the above doesn't look so great.
-  background-color: #723130;
+  background-color: #86090f;
   color: #fff;
    */
 }
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #86090f;
+    background-color: 723130;
     color: #fff;
 }
 
@@ -84,7 +84,7 @@ header.header-page {
 }
 
 button {
-    background-color: #723130;
+    background-color: #86090f;
 }
 
 button:hover,
@@ -96,7 +96,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #86090f;
+    background-color: 723130;
 }
 
 router-view .buttons button.primary:hover,
@@ -142,7 +142,7 @@ table td {
 }
 
 .footer {
-    background: #86090f;	
+    background: 723130;	
 }
 
 /* Uncomment this block if the organization has a Plus Account.
