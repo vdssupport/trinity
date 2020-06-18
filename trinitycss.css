@@ -1,17 +1,17 @@
 /*
-723130: (don't include the '#')
-{{Color_1_Shade}}: #{{Color_1_Shade}}; (goto http://www.color-hex.com/color/723130 ; use the second Shade -- just needs to be a little bit darker.)
+7B2A29: (don't include the '#')
+{{Color_1_Shade}}: #{{Color_1_Shade}}; (goto http://www.color-hex.com/color/7B2A29 ; use the second Shade -- just needs to be a little bit darker.)
 86090f: (don't include the '#')
 {{Color_2_Tint}}: #{{Color_2_Tint}}; (goto http://www.color-hex.com/color/86090f ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
 {{Logo_URL}}: {{Logo_URL}} i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
 */
 
 html {
-  background: #723130;
+  background: #7B2A29;
 }
 
 .splash {
-  background-color: #723130;
+  background-color: #7B2A29;
 }
 
 .splash .loading path {
@@ -19,7 +19,7 @@ html {
 }
 
 header.header-main {
-  background-color: #723130;
+  background-color: #7B2A29;
   height:10.5em;
 }
 
@@ -47,11 +47,11 @@ header.header-page {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #723130;
+    border-bottom-color: #7B2A29;
 }
 
 .header-page .buttons button {
-  background-color: #723130;
+  background-color: #7B2A29;
   color: #fff;
 }
 
@@ -64,7 +64,7 @@ header.header-page {
 .header-page .buttons button:focus 
 {
   background-color: #c28487;
-  color: #723130;
+  color: #7B2A29;
 
   /* Alternative if the above doesn't look so great.
   background-color: #86090f;
@@ -74,7 +74,7 @@ header.header-page {
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #723130;
+    background-color: #7B2A29;
     color: #fff;
 }
 
@@ -96,7 +96,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #723130;
+    background-color: #7B2A29;
 }
 
 router-view .buttons button.primary:hover,
@@ -142,7 +142,7 @@ table td {
 }
 
 .footer {
-    background: #723130;	
+    background: #7B2A29;	
 }
 
 /* Uncomment this block if the organization has a Plus Account.
