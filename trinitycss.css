@@ -63,7 +63,7 @@ header.header-page {
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #c28487;
+  background-color: #818387;
   color: #7B2A29;
 
   /* Alternative if the above doesn't look so great.
@@ -89,7 +89,7 @@ button {
 
 button:hover,
 button:focus {
-    background-color: #c28487;
+    background-color: #818387;
 }
 
 router-view .buttons button.primary,
@@ -114,7 +114,7 @@ button.submit-login:focus
 }
 
 .user-info a {
-    color: #c28487;
+    color: #818387;
 }
 
 .user-info a:hover,
@@ -133,12 +133,12 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #c28487; /*default #007bff*/
+    color: #818387; /*default #007bff*/
 }
 
 table th,
 table td {
-    background: #c28487;
+    background: #818387;
 }
 
 .footer {
